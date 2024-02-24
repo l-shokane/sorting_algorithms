@@ -38,6 +38,10 @@ void selection_sort(int *array, size_t size);
 void quick_sort(int *array, size_t size);
 void _intswap(int *a, int *b);
 void _nodeswap(listint_t **h, listint_t **n1, listint_t *n2);
+void _lomutos(int *array, size_t size, int left, int right);
+int _lomutop(int *array, size_t size, int left, int right);
+void quick_sort(int *array, size_t size);
+
 
 
 #endif
